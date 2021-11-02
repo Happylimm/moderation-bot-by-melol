@@ -13,7 +13,7 @@ const UnicronDB = new Sequelize(
     host: "localhost",
     dialect: "sqlite",
     logging: Debug,
-    storage: `./database/bruhhh.sqlite`,
+    storage: `./database/database.sqlite`,
     retry: {
       max: 10
     },
