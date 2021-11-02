@@ -28,7 +28,7 @@ const UserDB = new Sequelize(
     host: "localhost",
     dialect: "sqlite",
     logging: Debug,
-    storage: `./database/hellooo.sqlite`,
+    storage: `./database/database.sqlite`,
     retry: {
       max: 10
     },
@@ -43,7 +43,7 @@ const GuildDB = new Sequelize(
     host: "localhost",
     dialect: "sqlite",
     logging: Debug,
-    storage: `./database/thisshouldwork.sqlite`,
+    storage: `./database/database.sqlite`,
     retry: {
       max: 10
     },
